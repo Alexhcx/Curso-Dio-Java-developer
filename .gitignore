@@ -7,6 +7,16 @@
 
 # Vscode Files
 java-dio/.vscode/settings.json
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+**/.vscode/
+
+# Built Visual Studio Code Extensions
+*.vsix
 
 # Log files
 *.log
@@ -54,15 +64,7 @@ Thumbs.db
 hs_err_pid*
 replay_pid*
 
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-!.vscode/*.code-snippets
 
 # Local History for Visual Studio Code
 .history/
 
-# Built Visual Studio Code Extensions
-*.vsix
