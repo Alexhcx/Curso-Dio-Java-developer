@@ -32,5 +32,12 @@ public class Usuario {
         minhaTV.trocarCanal(32);
         System.out.println("Novo canal -> Canal atual? " + minhaTV.canal);
 
+        minhaTV.subirCanal();
+        minhaTV.subirCanal();
+        minhaTV.subirCanal();
+        minhaTV.subirCanal();
+        minhaTV.descerCanal();
+        System.out.println("Novo canal -> Canal atual? " + minhaTV.canal);
+
     }
 }

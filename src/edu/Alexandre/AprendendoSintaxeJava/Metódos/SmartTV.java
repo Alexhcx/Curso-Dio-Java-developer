@@ -25,4 +25,12 @@ public class SmartTV {
     public int trocarCanal(int x){
         return canal = x;
     }
+
+    public void subirCanal(){
+        canal++;
+    }
+    
+    public void descerCanal(){
+        canal--;
+    }
 }
