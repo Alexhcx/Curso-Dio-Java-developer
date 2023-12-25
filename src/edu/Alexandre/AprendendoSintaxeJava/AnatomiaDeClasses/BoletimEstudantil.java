@@ -1,4 +1,4 @@
-package edu.Alexandre.SintaxeJava.AnatomiaDeClasses;
+package edu.Alexandre.AprendendoSintaxeJava.AnatomiaDeClasses;
 
 public class BoletimEstudantil {
     public static void main(String[] args) {
